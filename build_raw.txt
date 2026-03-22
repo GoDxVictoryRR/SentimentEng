@@ -1,0 +1,24 @@
+
+> sentiment-liquidity-engine@1.4.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+
+> Build error occurred
+Error: Page "/ticker/[symbol]" is missing "generateStaticParams()" so it cannot be used with "output: export" config.
+    at C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\build\index.js:1297:59
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Span.traceAsyncFn (C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\trace\trace.js:154:20)
+    at async Promise.all (index 5)
+    at async C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\build\index.js:1175:17
+    at async Span.traceAsyncFn (C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\trace\trace.js:154:20)
+    at async C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\build\index.js:1098:124
+    at async Span.traceAsyncFn (C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\trace\trace.js:154:20)
+    at async build (C:\Users\hardi\Documents\Resume\RTF\node_modules\next\dist\build\index.js:368:9)

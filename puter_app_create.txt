@@ -1,0 +1,10 @@
+Usage: puter app create [options] <name> <remote_dir>
+
+Create a new app
+
+Arguments:
+  name        Name of the application
+  remote_dir  Remote directory URL
+
+Options:
+  -h, --help  display help for command

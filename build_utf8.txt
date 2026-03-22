@@ -1,0 +1,77 @@
+﻿
+> sentiment-liquidity-engine@1.4.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+  - Environments: .env
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+node.exe : 
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+> Build error occurred
+Error: Page 
+"/ticker/[symbol]" is 
+missing "generateStatic
+Params()" so it cannot 
+be used with "output: 
+export" config.
+    at C:\Users\hardi\D
+ocuments\Resume\RTF\nod
+e_modules\next\dist\bui
+ld\index.js:1297:59
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:105:5)
+    at async 
+Span.traceAsyncFn (C:\U
+sers\hardi\Documents\Re
+sume\RTF\node_modules\n
+ext\dist\trace\trace.js
+:154:20)
+    at async 
+Promise.all (index 5)
+    at async C:\Users\h
+ardi\Documents\Resume\R
+TF\node_modules\next\di
+st\build\index.js:1175:
+17
+    at async 
+Span.traceAsyncFn (C:\U
+sers\hardi\Documents\Re
+sume\RTF\node_modules\n
+ext\dist\trace\trace.js
+:154:20)
+    at async C:\Users\h
+ardi\Documents\Resume\R
+TF\node_modules\next\di
+st\build\index.js:1098:
+124
+    at async 
+Span.traceAsyncFn (C:\U
+sers\hardi\Documents\Re
+sume\RTF\node_modules\n
+ext\dist\trace\trace.js
+:154:20)
+    at async build (C:\
+Users\hardi\Documents\R
+esume\RTF\node_modules\
+next\dist\build\index.j
+s:368:9)

@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "**/.next": true,
+        "**/out": true
+    },
+    "search.exclude": {
+        "**/.next": true,
+        "**/out": true
+    },
+    "typescript.referencesCodeLens.enabled": true,
+    "javascript.validate.enable": false
+}
