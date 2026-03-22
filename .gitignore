@@ -53,3 +53,8 @@ Desktop.ini
 
 # TypeScript
 tsconfig.tsbuildinfo
+
+# Internal Prompts & History
+MASTER_PROMPT_SentimentLiquidityEngine.md
+walkthrough.md.resolved
+walkthrough1.md
