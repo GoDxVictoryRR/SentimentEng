@@ -1,1 +1,55 @@
-node_modules
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js Build Output
+.next/
+out/
+build/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.local
+
+# Build/Debug Artifacts
+*.log
+build_error.txt
+build_success.txt
+build_raw.txt
+build_result.txt
+build_utf8.txt
+build_final.txt
+build_error_2.txt
+build_error_check.txt
+tsc_errors.txt
+puter_app_create.txt
+puter_app_help.txt
+puter_help.txt
+puter_help2.txt
+puter_site_deploy_help.txt
+puter_site_help.txt
+puter_sites.txt
+puter_token_path.txt
+help.txt
+
+# OS File Buffers
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# TypeScript
+tsconfig.tsbuildinfo
